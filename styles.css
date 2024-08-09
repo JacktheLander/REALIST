@@ -103,7 +103,18 @@ footer {
         padding: 8px 16px;
     }
 }
+.mobile .container {
+    height: auto; /* Ensure the container height adjusts to content */
+    padding-top: 150px; /* Adjust padding for better spacing on mobile */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: visible; /* Allow the content to be fully visible */
+}
 
+.mobile body {
+    padding-top: 20px; /* Reduce padding on mobile to fit the content better */
+}
 .mobile h1 {
     font-size: 1.5rem;
 }
