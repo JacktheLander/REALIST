@@ -42,7 +42,27 @@
             justify-content: center;
             gap: 50px; /* Increased gap between buttons */
         }
+        .download-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between the buttons */
+            margin-top: 10px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            background: rgba(0, 0, 0, 0.3);
+            transition: background 0.3s;
+            margin-bottom: 10px;
+        }
 
+        a:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
         footer {
             margin-top: auto;
             padding: 10px;
@@ -62,6 +82,13 @@
             .buy-buttons {
                 flex-direction: column;
                 gap: 20px; /* Reduced gap for mobile */
+            }
+            a {
+                font-size: 1rem;
+            }
+
+            a {
+                padding: 8px 16px;
             }
         }
     </style>
@@ -86,6 +113,11 @@
                 publishable-key="pk_live_51PjNKZ1fP8oMk3g59BgLTdCmNuKYiGDNHaVM5h2bwDVSGSq4MaSft0Y90958Rp53wzycRvXWGIJN57Vbtj0kLJEn00l1fSNvBK"
             ></stripe-buy-button>
         </div>
+        <div class="download-buttons">
+            <a href="" target="_blank">Download for Windows</a>
+            <a href="" target="_blank">Download for Mac</a>
+        </div>
+
     </div>
 
     <footer>
