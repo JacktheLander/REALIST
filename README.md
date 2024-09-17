@@ -1,0 +1,1 @@
+Realist is a Windows application I created in Python for realtors at Brown Harris Stevens to generate and managet their leads. It uses data sourced from Endato API, features from Google Cloud Platform, and user databasing from Stripe API services to provide a user experience that is simple and effective. Learn more about the app on the website https://re-a-list.com/ 
