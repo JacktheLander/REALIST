@@ -27,7 +27,7 @@ body {
 }
 
 .container:hover {
-    height: 400px; /* Adjust based on your content height */
+    height: 400px; 
 }
 
 .title {
