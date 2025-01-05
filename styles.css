@@ -73,9 +73,6 @@ a {
     transition: background 0.3s;
     margin-bottom: 10px;
 }
-body.mobile a {
-    display: none;
-}
 
 a:hover {
     background: rgba(0, 0, 0, 0.5);
@@ -131,6 +128,5 @@ footer {
 }
 
 .mobile a {
-    font-size: 0.9rem;
-    padding: 6px 12px;
+    display: none;
 }
