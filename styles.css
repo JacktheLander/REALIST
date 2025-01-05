@@ -104,27 +104,22 @@ footer {
     }
 }
 .mobile .container {
-    height: auto; /* Ensure the container height adjusts to content */
-    padding-top: 150px; /* Adjust padding for better spacing on mobile */
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    overflow: visible; /* Allow the content to be fully visible */
+    display: none;
 }
 
 .mobile body {
-    padding-top: 20px; /* Reduce padding on mobile to fit the content better */
+    display: none;
 }
 .mobile h1 {
     font-size: 1.5rem;
 }
 
 .mobile h2 {
-    font-size: 1.2rem;
+    display: none;
 }
 
 .mobile p {
-    font-size: 0.9rem;
+    display: none;
 }
 
 .mobile a {
