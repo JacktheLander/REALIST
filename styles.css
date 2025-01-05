@@ -125,3 +125,6 @@ footer {
 .mobile a {
     display: none;
 }
+.mobile footer {
+    display: none;
+}
